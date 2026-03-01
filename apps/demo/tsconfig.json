@@ -10,7 +10,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-    "noEmit": true
+    "noEmit": true,
+    "paths": {
+      "glass-buttons": ["../../packages/glass-buttons/src/index.ts"]
+    }
   },
-  "include": ["src"]
+  "include": ["src", "../../packages/glass-buttons/src"]
 }

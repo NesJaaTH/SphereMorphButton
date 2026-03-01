@@ -1,0 +1,15 @@
+{
+  "name": "glass-buttons-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter demo dev",
+    "build": "pnpm --filter glass-buttons build",
+    "build:all": "pnpm --filter glass-buttons build && pnpm --filter demo build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}

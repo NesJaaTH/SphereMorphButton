@@ -1,0 +1,16 @@
+{
+  "version": "1.8.1",
+  "installedAt": "2026-03-01T10:31:19.627Z",
+  "targetDir": "D:\\git\\fastwork\\HCNOYKOR",
+  "ides": [
+    "claude",
+    "cursor"
+  ],
+  "components": {
+    "skills": true,
+    "agents": true,
+    "commands": true,
+    "templates": true,
+    "memory": true
+  }
+}
